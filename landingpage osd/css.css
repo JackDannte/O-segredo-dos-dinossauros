@@ -1,0 +1,314 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Georgia', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    z-index: 1;
+}
+
+blockquote {
+    font-style: italic;
+    margin: -20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #303030;
+}
+
+.divisao {
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 350px;
+    z-index: -1;
+}
+
+.CAPA {
+    width: 250px;
+    height: auto;
+    position: absolute; 
+    top: 400px; 
+    left: 50px; 
+    box-shadow: 0px 5px 20px #1d1d1d;
+}
+
+.titulo {
+    position: absolute;
+    top: 380px;
+    left: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(22, 22, 22);
+}
+.autor {
+    position: absolute;
+    top: 415px;
+    left: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 14px;
+}
+.tsinopse {
+    position: absolute;
+    top: 450px;
+    left: 310px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.sinopse {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 550px;
+    position: absolute;
+    top: 477px;
+    left: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    color: rgb(37, 37, 37);
+    font-size: 10px;
+}
+.cabeçalho {
+    height: 7px;
+    width: 560px;
+    background-color: #f58434;
+    position: absolute;
+    top: 455px;
+    left: 310px;
+}
+.fotoautor {
+    position: absolute; 
+    top: 400px; 
+    left: 950px; 
+    border: 1px solid rgb(26, 26, 26);
+}
+.biografia {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 300px;
+    position: absolute;
+    top: 695px;
+    left: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 10px;
+}
+.div3 {
+    margin: 0;
+    height: 1px;
+    width: 940px;
+    background-color: rgb(168, 168, 168);
+    position: absolute;
+    top: 820px;
+}
+.topbox {
+    margin: 0;
+    height: 390px;
+    width: 100%;
+    background-color: #f58434;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+.genero {
+    height: 100px;
+    width: 560px;
+    background-color: #f58434;
+    position: absolute;
+    top: 700px;
+    left: 310px;
+}
+.sci-fi {
+    line-height: 7px;
+    text-align: justify;
+    max-width: 550px;
+    position: absolute;
+    top: 705px;
+    left: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: white;
+    font-size: 13px;
+}
+.apresentação {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 820px;
+    left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    color: black;
+    font-size: 10px;
+}
+.div4 {
+    margin: 0;
+    height: 1px;
+    width: 940px;
+    background-color: rgb(168, 168, 168);
+    position: absolute;
+    top: 1020px;
+}
+.reações {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1015px;
+    left: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    color: black;
+    font-size: 14px;
+}
+.com1 {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1100px;
+    left: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+}
+
+.com2 {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1200px;
+    left: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+}
+.com3 {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1300px;
+    left: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    color: rgb(82, 82, 82);
+    font-size: 12px;
+}
+.div5 {
+    margin: 0;
+    height: 1px;
+    width: 940px;
+    background-color: rgb(168, 168, 168);
+    position: absolute;
+    top: 1370px;
+}
+.kindle {
+    width: 0px;
+    height: auto;
+    position: absolute; 
+    top: 1450px; 
+    left: 400px; 
+    box-shadow: 0px 5px 20px #1d1d1d;
+}
+.capa2 {
+    width: 20px;
+    transition: transform 0.3seg;
+    height: auto;
+    position: absolute; 
+    top: 1450px; 
+    left: 480px; 
+    box-shadow: 0px 5px 20px #1d1d1d;
+    transform: rotate(5deg);
+}
+.calltoaction {
+    line-height: 17px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1660px;
+    left: 435px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    color: rgb(22, 22, 22);
+    font-size: 18px;
+}
+a {
+    color: #f58434;
+}
+.div6 {
+    margin: 0;
+    height: 75px;
+    width: 100%;
+    background-color: #f58434;
+    position: absolute;
+    top: 1810px;
+    z-index: -1;
+}
+.redes {
+    line-height: 10px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1815px;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    color: rgb(228, 228, 228);
+    font-size: 10px;
+}
+.ig {
+    line-height: 10px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1815px;
+    left: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    color: rgb(228, 228, 228);
+    font-size: 10px;
+}
+.tt {
+    line-height: 10px;
+    text-align: justify;
+    max-width: 815px;
+    position: absolute;
+    top: 1836px;
+    left: 87px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    color: rgb(228, 228, 228);
+    font-size: 10px;
+}
+
+.linkig {
+    color: whitesmoke;
+}
+.linktt {
+    color: whitesmoke;
+}
+
+.logomini {
+    position: absolute;
+    top: 1805px;
+    left: 1150px;
+}
